@@ -12,11 +12,11 @@ def inputdata(opt):
 def compchoice(opt):
     ch=random.choice(opt)
     if ch == "R":
-        print("Your choise is  Rock")
+        print("Computer choise is  Rock")
     elif ch == "P":
-        print("Your choise is  Paper")
+        print("Computer choise is  Paper")
     elif ch == "S":
-        print("Your choise is  Scissor")
+        print("Computer choise is  Scissor")
     return ch
 def Result(p1,p2):
     if p1 == p2:
